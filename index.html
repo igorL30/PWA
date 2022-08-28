@@ -1,0 +1,33 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <link rel="manifest" href="manifest.json">
+    <title>pwa</title>
+</head>
+<body>
+    <h1>Igor Leonardo</h1>
+    <h2>Programador Web</h2>
+    <p> -ReactJS<br>
+        -JavaScript
+        <br>
+        -PHP
+    </p>
+    <div id="img1"></div>
+    <a href="https://www.facebook.com/profile.php?id=100081488521823">
+    <div id="img2"></div>
+    </a>
+    <a href="https://wa.me/5511987604892">   
+        <div id="img3"></div>
+        </a>
+<script>
+    if('serviceworker' in navigator){
+        navigator.serviceWorker.register('./sw.js')
+    }
+</script>
+    <script src="Script.js"></script>
+
+</body>
+</html>
